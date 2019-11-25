@@ -6,7 +6,6 @@ from experiments.quorum_enumeration.plot import plot_quorum_enumeration
 
 def main():
     '''Run experiment'''
-    # pylint: disable=R0801
     n_orgs_range, n_quorums, t_elapsed = list(range(3, 11)), [], []
     for n_orgs in n_orgs_range:
         base_definition = get_hierarchical_base_definition(n_orgs, n_orgs - 1, 3, 2)
