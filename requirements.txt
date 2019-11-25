@@ -1,0 +1,3 @@
+stellar-observatory==1.0a9
+matplotlib
+tikzplotlib
