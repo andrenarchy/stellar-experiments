@@ -2,6 +2,7 @@
 
 import math
 import matplotlib.pyplot as plt
+import tikzplotlib
 from matplotlib.ticker import MaxNLocator
 
 def plot_quorum_enumeration(n_orgs_range, n_quorums, t_elapsed):
@@ -32,5 +33,4 @@ def plot_quorum_enumeration(n_orgs_range, n_quorums, t_elapsed):
                  loground(max(n_quorums), direction='up'))
     ax2.plot(n_orgs_range, n_quorums, 'o:', lw=2, color=prop_cycle[1]['color'])
 
-    import tikzplotlib
     print(tikzplotlib.get_tikz_code())
