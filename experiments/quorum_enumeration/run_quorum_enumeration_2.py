@@ -17,6 +17,5 @@ def main():
 
     plot_quorum_enumeration(n_orgs_range, n_quorums, t_elapsed)
 
-
 if __name__ == "__main__":
     main()

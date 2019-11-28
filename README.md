@@ -10,4 +10,6 @@ pip install -r requirements.txt
 ```
 python3 -m experiments.quorum_enumeration.run_quorum_enumeration_1
 python3 -m experiments.quorum_enumeration.run_quorum_enumeration_2
+python3 -m experiments.quorum_intersection.run_quorum_intersection_1
+python3 -m experiments.quorum_intersection.run_quorum_intersection_2
 ```
